@@ -1,0 +1,75 @@
+.header {
+  background-color: #f7d0b4;
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.hero-background-image {
+  background-image: url("./images.travel/korcula.jpeg");
+  background-color: #f0dcce;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  font-size: 36pt;
+  font-weight: 400px;
+  color: black;
+  opacity: 100%;
+}
+
+.welcome {
+  background-color: #f0dcce;
+  opacity: 65%;
+  font-family: "Major Mono Display", monospace;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: stretch;
+  height: 800px;
+  width: 50%;
+  margin: 25px;
+}
+
+.flex-container-pic {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3e3d7;
+  height: 200px;
+}
+
+.image {
+  margin: 25px;
+}
+
+h2 {
+  font-family: "Major Mono Display", monospace;
+}
+
+p {
+  font-family: "Major Mono Display", monospace;
+}
+
+.flex-questions {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3ebe5;
+  padding: 15px;
+}
+
+.question {
+  width: 665px;
+  padding: 10px;
+}
