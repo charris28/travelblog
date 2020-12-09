@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
       rel="stylesheet"
@@ -22,14 +20,19 @@
         alt="world icon"
       />
 
-      <h1>the longest Road...</h1>
+      <h1>THE LONGEST ROAD: @miroxtina travel the world</h1>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="">About us</a></li>
-          <li><a href="#">contact us</a></li>
-          <li><a href="">Musings</a></li>
-          <li><a href="">travel Guides</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About us</a></li>
+          <li><a href="contactus.html">contact us</a></li>
+          <li><a href="musings.html">Musings</a></li>
+          <li><a href="travelguides.html">travel Guides</a></li>
+
+          <li>
+            <a href="https://www.instagram.com/miroxtina/" target="_blank"
+              >social</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -142,11 +145,54 @@
 
       <div class="question">
         <h2>Where to Next...</h2>
-        <p>Here's a list of countries you can currently vist.</p>
+        <p>Here's a list of countries you can currently vist:</p>
+        <ul>
+          <li>Aruba</li>
+          <li>Barbados</li>
+          <li>Chile</li>
+          <li>Uruguay</li>
+          <li>And many more! Read up on the latest     <a href="https://travel.usnews.com/features/where-can-americans-travel-right-now" target="_blank"
+            >here</a>.</li>
+      </ul>
       </div>
     </div>
 
-    <section>Insert API FOR WEATHER DATA</section>
+  
     <script src="./js/main.js"></script>
+
+    <footer>
+      <div class="flex-container-contact-main">
+        <div class="form-wrapper">
+          <img
+            src="./images.travel/swim.jpeg"
+            alt="swim"
+            height="300px"
+            width="auto"
+          />
+        </div>
+
+        <div class="form-wrapper">
+          <form action="#" method="post">
+            <h1>Enjoy these musings?</h1>
+            <h3>Subscribe to travel insights and more by @miroxtina</h2>
+
+            <div class="kit-form-main">
+             
+              <input required type="text" id="mail" 
+              placeholder="Your Email Address"/>
+           
+              <input type="subscribe" class="button" value="Subscribe" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="San Francisco" data-label_2="WEATHER" data-theme="original" data-basecolor="#E7F0F7" data-textcolor="black" data-highcolor="f7eee7" data-lowcolor="#f7d0b4" data-suncolor="#f7d0b4" data-cloudcolor="#7102ff" >San Francisco WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
   </body>
+
+  
 </html>
+

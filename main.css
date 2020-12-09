@@ -1,16 +1,17 @@
 .header {
-  background-color: #f7d0b4;
+  background-color: #f7eee7;
   font-family: "Major Mono Display", monospace;
   font-weight: 400;
   font-style: normal;
 }
 
 .header nav ul {
-  padding: 0;
+  padding: 20px;
   margin: 0;
+  font-weight: bold;
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: baseline;
 }
 
@@ -26,36 +27,39 @@
 .intro {
   font-size: 36pt;
   font-weight: 400px;
-  color: black;
+  position: relative;
   opacity: 100%;
 }
 
 .welcome {
-  background-color: #f0dcce;
-  opacity: 65%;
+  background-color: #e7f0f7;
+  opacity: 75%;
   font-family: "Major Mono Display", monospace;
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: stretch;
+  position: relative;
   height: 800px;
   width: 50%;
-  margin: 25px;
 }
 
 .flex-container-pic {
   display: flex;
   justify-content: space-between;
-  background-color: #f3e3d7;
-  height: 200px;
+  background-color: #f7eee7;
+  padding: 20px;
 }
 
 .image {
   margin: 25px;
 }
 
-h2 {
+h1,
+h2,
+h3 {
   font-family: "Major Mono Display", monospace;
+  color: black;
 }
 
 p {
@@ -64,12 +68,157 @@ p {
 
 .flex-questions {
   display: flex;
-  justify-content: space-between;
-  background-color: #f3ebe5;
+  justify-content: space-around;
+  background-color: #f7eee7;
   padding: 15px;
 }
 
 .question {
   width: 665px;
   padding: 10px;
+}
+
+body {
+  font-family: "Major Mono Display", monospace;
+  background: #f7eee7;
+}
+
+/* css for about page*/
+
+.hero-background-image-about {
+  background-image: url("./images.travel/algarve.jpeg");
+  background-color: #f0dcce;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutus {
+  font-size: 35px;
+}
+
+/* css for contact page*/
+
+.flex-container-contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f7eee7;
+}
+
+form {
+  margin: 100px auto;
+  padding: 20px;
+  border: 1.5px solid #7102ff;
+  background: #eee7f7;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kit-form {
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+label {
+  display: inline-block;
+  width: 160px;
+  padding-top: 2px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  vertical-align: top;
+}
+
+input,
+select,
+textarea {
+  width: 320px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  display: center;
+  margin-left: auto;
+  margin-right: 75px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #000;
+  background-color: #eee;
+  outline: none;
+}
+
+.placeholder {
+  font-size: px;
+}
+
+input[type="checkbox"],
+input[type="submit"] {
+  width: auto;
+}
+input[type="checkbox"] + label {
+  width: auto;
+  letter-spacing: 0;
+}
+
+.button {
+  background-color: #7102ff;
+  color: white;
+  font-size: 20px;
+  font-family: "Major Mono Display", monospace;
+  padding: 10px;
+  transition: 0.5s;
+  display: center;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* css for footer */
+.kit-form-main {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-container-contact-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7eee7;
+}
+
+/* css for musings */
+
+.hero-image-musings {
+  background-image: url("./images.travel/stroll.jpeg");
+  background-color: #f7eee7;
+  height: 800px;
+  width: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+.coming-soon {
+  width: 600px;
+  padding: 20px;
+  border: 1.5px solid #7102ff;
+  background: #eee7f7;
+}
+/* css for musings */
+
+.hero-image-travel {
+  background-image: url("./images.travel/castle.jpeg");
+  background-color: #f7eee7;
+  height: 800px;
+  width: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
 }
