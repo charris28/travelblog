@@ -28,12 +28,11 @@
   font-size: 36pt;
   font-weight: 400px;
   position: relative;
-  opacity: 100%;
 }
 
 .welcome {
   background-color: #e7f0f7;
-  opacity: 75%;
+  opacity: 70%;
   font-family: "Major Mono Display", monospace;
   display: flex;
   flex-direction: column;
